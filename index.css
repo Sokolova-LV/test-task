@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    --main-background-color: #fff;
+    --gray-background-color: lightgray;
+
+    --main-text-color: #000;
+    --gray-text-color: gray;
+
+    --accent-color: blue;
+
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    background-color: var(--main-background-color);
+
+    width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 16px;
+}
+
+.header__list {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__link {
+    color: var(--main-text-color);
+}
+
+.header__link:hover,
+.header__link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header__img {
+    width: 16px;
+    height: 16px;
+}
+
+.header__btn {
+    display: block;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: var(--accent-color);
+    color: var(--main-background-color);
+}
+
+.header__btn:hover,
+.header__btn:focus {
+    cursor: pointer;
+    background-color: var(--main-background-color);
+    color: var(--accent-color);
+    border: 1px dashed var(--accent-color);
+    transition: var(--transition);
+}
+
+.main {
+    margin-top: 64px;
+}
+
+.main__logo {
+    width: 400px;
+    height: 220px;
+    margin: auto;
+}
+
+.main__input {
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    padding: 11px 40px;
+    border: 1px solid var(--gray-background-color);
+    border-radius: 20px;
+    caret-color: var(--main-text-color);
+    transition: var(--transition);
+}
+
+.main__input:focus {
+    border-color: var(--accent-color);
+    outline: 0 none;
+}
+
+.main__icon-1 {
+    display: block;
+    margin-left: 300px;
+    margin-top: -35px;
+    width: 25px;
+    height: 25px;
+}
+
+.main__icon-1:hover {
+    cursor: pointer;
+}
+
+.icon__list {
+    display: flex;
+    margin-left: 750px;
+    margin-top: -30px;
+    gap: 20px;
+}
+
+.main__icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.main__icon:hover {
+    cursor: pointer;
+}
+
+.main__list {
+
+}
+
+.main__item {
+
+}
+
+.main__link {
+
+}
+
+.main__text {
+
+}
+
+.main__span {
+
+}
