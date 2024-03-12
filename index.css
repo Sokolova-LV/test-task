@@ -115,6 +115,7 @@ img {
 }
 
 .main__input {
+    position: relative;
     display: block;
     margin: auto;
     width: 600px;
@@ -132,6 +133,7 @@ img {
 }
 
 .main__icon-1 {
+    position: absolute;
     display: block;
     margin-left: 300px;
     margin-top: -35px;
@@ -144,6 +146,7 @@ img {
 }
 
 .icon__list {
+    position: absolute;
     display: flex;
     margin-left: 750px;
     margin-top: -30px;
