@@ -119,6 +119,20 @@ img {
     margin: auto;
 }
 
+.main__title {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    padding: 70px 0 32px;
+    color: var(--gray-text-color);
+}
+
+.main__title:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+    transition: var(--transition);
+}
+
 .input__container {
     position: relative;
 }
@@ -194,6 +208,21 @@ img {
 
 .main__link:hover,
 .main__link:focus {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.main__link-click {
+    color: var(--main-text-color);
+    background-color: var(--gray-background-color);
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.main__link-click:hover,
+.main__link-click:focus {
     color: var(--main-background-color);
     background-color: var(--accent-color);
     transition: var(--transition);
